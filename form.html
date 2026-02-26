@@ -1,0 +1,42 @@
+<!DOCTYPE html>>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма взаємодії</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <p><strong>Шевченко Альона Павілівна</strong></p>
+            <p>Група: <strong>КН-31</strong></p>
+            <p>Варіант: <strong>№11</strong></p>
+            <a href="main.html">На головну</a><br>
+            <a href="form.html">Ajh</a>
+        </header>
+        <h2>Форма взаємодії з користувачем</h2>
+        <p>Будь ласка, заповніть форму нижче:</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Особисті дані</legend>
+                <label>Прізвище: <input type="text" name="surname"></label>
+                <label>Ім'я: <input type="text" name="name"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Навчання</legend>
+                <label>Група: <input type="text" name="group"></label>
+                <label>Форма навчання:
+                    <select name="form">
+                        <option>Денна</option>
+                        <option>Заочна</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Контактна інформація</legend>
+                <label>Email: <input type="email" name="email" placeholder="username@gmail"></label><br>
+                <label>Телефон: <input type="tel" name="phone"></label><br>
+            </fieldset>
+            <input type="submit" value="Відправити">
+        </form>
+    </body>
+</html>
